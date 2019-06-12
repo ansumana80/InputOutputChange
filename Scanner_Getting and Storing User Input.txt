@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args)
+
+    {
+        String firstInitial, lastName, houseNumber, streetName, streetType, city;
+//        firstInitial = "P";
+//        lastName = "Sherman";
+//        houseNumber = "42";
+//        streetName = "Wallaby Way";
+//        city = "Sidney";
+
+
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Type your first initial");
+        firstInitial = keyboard.nextLine();
+
+        System.out.println("Type your lastName");
+        lastName = keyboard.nextLine();
+
+        System.out.println("Type your houseNumber");
+        houseNumber = keyboard.nextLine();
+
+        System.out.println("Type your streetName");
+        streetName = keyboard.nextLine();
+
+        System.out.println("Type your city");
+        city = keyboard.nextLine();
+
+        System.out.printf(firstInitial + " " + lastName + " " + houseNumber + " " );
+        System.out.println(streetName + " " + city);
+    }
+
+}
