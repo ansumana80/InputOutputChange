@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        // declare string
+        String fullName;
+        // initialize
+        fullName = "Ansu J Rogers";
+        //print
+        System.out.println (fullName);
+
+
+    }
+
+}
